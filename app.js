@@ -1,14 +1,7 @@
-const a = 5;
-const b = 2;
+console.log(true);
+console.log(false);
 
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
+const testNull = null;
+let testUndefined;
 
-let myName = "jerry";
-
-console.log("Hello " + myName);
-
-myName = "ryan";
-
-console.log("My new name is " + myName);
+console.log(testNull, testUndefined);
