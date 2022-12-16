@@ -5,6 +5,10 @@ console.log(a + b);
 console.log(a * b);
 console.log(a / b);
 
-const myName = "jerry";
+let myName = "jerry";
 
 console.log("Hello " + myName);
+
+myName = "ryan";
+
+console.log("My new name is " + myName);
