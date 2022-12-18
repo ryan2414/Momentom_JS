@@ -1,7 +1,15 @@
-const dayOfWeek = ["mon", "tue", "wen", "thu", "fri", "sat"];
+const player = {
+  id: "ryan",
+  level: 1,
+  isWarrier: false,
+};
 
-console.log(dayOfWeek);
-console.log(dayOfWeek[3]);
+console.log(player);
 
-dayOfWeek.push("sun");
-console.log(dayOfWeek);
+player.str = 10;
+
+console.log(player);
+
+player.str += 10;
+
+console.log(player.str);
