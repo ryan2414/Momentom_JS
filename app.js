@@ -1,10 +1,21 @@
-const player = {
-  id: "ryan",
-  level: 1,
-  isWarrier: false,
-  sayHello: function (otherPerson) {
-    console.log(`Hellin ${otherPerson} nice meet you`);
+const calculator = {
+  plus: function (a, b) {
+    return a + b;
+  },
+  minus: function (a, b) {
+    return a - b;
+  },
+  times: function (a, b) {
+    return a * b;
+  },
+  devided: function (a, b) {
+    return a / b;
+  },
+  power: function (a, b) {
+    return a ** b;
   },
 };
 
-player.sayHello("jerry");
+const plus = calculator.plus(5, 3);
+const minus = calculator.minus(10, plus);
+const times = calculator.times(plus, minus);
