@@ -2,14 +2,9 @@ const player = {
   id: "ryan",
   level: 1,
   isWarrier: false,
+  sayHello: function (otherPerson) {
+    console.log(`Hellin ${otherPerson} nice meet you`);
+  },
 };
 
-console.log(player);
-
-player.str = 10;
-
-console.log(player);
-
-player.str += 10;
-
-console.log(player.str);
+player.sayHello("jerry");
