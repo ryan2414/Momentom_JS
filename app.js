@@ -1,7 +1,10 @@
-const hello = document.querySelector(".hello h1");
-const hellos = document.querySelectorAll(".hello h1");
+const title = document.querySelector("div.hello:first-child h1");
 
-hello.innerText = "Hello";
+console.dir(title);
 
-console.log(hello);
-console.log(hellos);
+function OnClickTitle() {
+  console.log("On Title Click");
+  title.style.color = "blue";
+}
+
+title.addEventListener("click", OnClickTitle);
