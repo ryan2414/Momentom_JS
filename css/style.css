@@ -11,3 +11,37 @@
   z-index: -1;
   animation: fadeIn 0.5s linear;
 }
+
+#clock {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 120px;
+  color: beige;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+#quote {
+  /* display: flex;
+  justify-content: center; */
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  font-weight: bold;
+  font-size: 15px;
+  color: beige;
+}
+
+#quote span {
+  text-align: center;
+  display: block;
+}
